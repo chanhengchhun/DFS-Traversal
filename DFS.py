@@ -17,6 +17,3 @@ def dfs(node, visited_list=None):
     dfs(node.right, visited_list) # 4 explore right branch
 
     return visited_list
-
-
-
